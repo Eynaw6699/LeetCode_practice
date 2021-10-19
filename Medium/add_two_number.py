@@ -23,5 +23,5 @@ class Solution:
 if __name__ == "__main__":
     S = ["flower", "flow", "flight"]
     print(Solution.longestCommonPrefix(S))
-    S_1 = ["dog", "racecar", "car"]
+    S_1 = ["dog", "race car", "car"]
     print(Solution.longestCommonPrefix(S_1))
