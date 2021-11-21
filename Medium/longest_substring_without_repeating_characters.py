@@ -12,8 +12,7 @@
 # Explanation: The answer is "b", with the length of 1.
 
 class Solution:
-    @staticmethod
-    def lengthOfLongestSubstring(s: str):
+    def lengthOfLongestSubstring(self, s: str):
         used = {}
         max_length = start = 0
         for i, c in enumerate(s):
@@ -28,5 +27,6 @@ class Solution:
 
 
 if __name__ == "__main__":
-    a = Solution.lengthOfLongestSubstring(s="abbbbbbb")
-    print(a)
+    a = Solution()
+    b = a.lengthOfLongestSubstring(s="abbbbbbb")
+    print(b)
